@@ -16,7 +16,10 @@
 				'Shopify Themes',
 				'Shopify Hydrogen',
 				'Tailwind',
-				'Bootstrap'
+				'Bootstrap',
+				'Claude Code',
+				'GitHub Copilot',
+				'pi harness'
 			]
 		},
 		{
@@ -45,19 +48,23 @@
 <div class="flex flex-col gap-4 leading-relaxed">
 	<p>
 		I am a software engineer and musician in Pittsburgh, Pennsylvania. I have deep experience in the
-		React and Typescript ecosystem, as well as with ecommerce, specifically Shopify. Previously I
-		was part of the core team which built blink Commerce, a tool for Shopify merchants to deploy
-		stable, performant, and highly customizable statically-generated frontends on Vercel's edge
-		network. Users now conduct millions of dollars of transactions annually through blink sites.
+		React and Typescript ecosystem, as well as with ecommerce, specifically Shopify. Most recently I
+		was part of the four person core team which built blink Commerce, a tool for Shopify merchants
+		to deploy stable, performant, and highly customizable statically-generated frontends on Vercel's
+		edge network. Users now conduct millions of dollars of transactions annually through blink
+		sites.
 	</p>
 	<p>
 		I am always learning something new. Currently I am working on Bookshelf, a book tracking app
-		which leverages the AT Protocol to allow users to track their reading, leave short reviews and
+		which leverages the AT Protocol to allow users to log their reading, leave short reviews and
 		explore the reading history of their social connections. Like everyone else, I'm exploring the
 		agentic coding frontier and working to evolve the workflows that benefit me the most. See the AI
 		section below for an example my current process, though things are always changing.
 	</p>
-	<p>Outside of work: baseball, tabletop role-playing games, and science fiction.</p>
+	<p>
+		Outside of work I play in a band, watch the Pittsburgh Pirates, and serve as a frequent game
+		master for my long-running tabletop RPG group. Currently we are playing Blades in the Dark.
+	</p>
 </div>
 
 <h2 class="mt-10 mb-3 text-white">Skills</h2>
