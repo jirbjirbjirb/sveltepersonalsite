@@ -8,12 +8,12 @@
 	let { children }: LayoutProps = $props();
 
 	const links = [
-		{ href: resolve('/'), label: 'home' },
-		{ href: resolve('/projects'), label: 'projects' },
-		{ href: resolve('/about'), label: 'about' }
+		{ href: resolve('/'), label: 'home', id: '/' },
+		{ href: resolve('/projects'), label: 'projects', id: '/projects' },
+		{ href: resolve('/about'), label: 'about', id: '/about' }
 	];
 
-	let isHome = $derived(page.url.pathname === resolve('/'));
+	let isHome = $derived(page.route.id === '/');
 </script>
 
 <svelte:head>
@@ -30,7 +30,7 @@
 			{#each links as link (link.href)}
 				<a
 					href={link.href}
-					aria-current={page.url.pathname === link.href ? 'page' : undefined}
+					aria-current={page.route.id === link.id ? 'page' : undefined}
 					class="text-neutral-500 transition-colors hover:text-white aria-[current=page]:text-white"
 				>
 					{link.label}
@@ -44,7 +44,9 @@
 
 		<footer class="flex gap-6 py-8 text-sm text-neutral-600">
 			<a href="https://github.com/jirbjirbjirb" class="hover:text-white">github</a>
-			<a href="https://www.linkedin.com/in/kirby-jayes-087a3320b/" class="hover:text-white">linkedin</a>
+			<a href="https://www.linkedin.com/in/kirby-jayes-087a3320b/" class="hover:text-white"
+				>linkedin</a
+			>
 			<a href="mailto:rkjayes@gmail.com" class="hover:text-white">email</a>
 		</footer>
 	</div>
