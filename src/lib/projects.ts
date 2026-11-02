@@ -5,6 +5,7 @@ export type Project = {
 	href?: string;
 };
 
+// TODO(personal): replace placeholder entries with real projects
 export const projects: Project[] = [
 	{
 		title: 'Personal Site',
