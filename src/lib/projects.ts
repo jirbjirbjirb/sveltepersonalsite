@@ -9,6 +9,13 @@ export type Project = {
 // Ordered newest to oldest by repo creation date.
 export const projects: Project[] = [
 	{
+		title: 'Bookshelf',
+		description:
+			"In active development, not a complete project. An AT Protocol demo of a reading tracking app: sign in with Bluesky, search books, and write reviews stored as custom lexicon records. Eventually you will be able to browse other user's reviews or view reviews by book.",
+		tags: ['Next.js', 'TypeScript', 'AT Protocol', 'SQLite'],
+		repo: 'https://github.com/jirbjirbjirb/bookshelf'
+	},
+	{
 		title: 'Personal site',
 		description: 'This site, originally a react app, rebuilt in Svelte.',
 		tags: ['Svelte'],
