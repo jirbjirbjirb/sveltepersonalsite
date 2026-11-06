@@ -1,6 +1,8 @@
 export type Project = {
 	title: string;
 	description: string;
+	// `text` must appear verbatim in `description`; it is rendered as a link.
+	link?: { text: string; href: '/about' };
 	tags: string[];
 	repo: string;
 	live?: string;
@@ -11,7 +13,8 @@ export const projects: Project[] = [
 	{
 		title: 'Bookshelf',
 		description:
-			"In active development, not a complete project. An AT Protocol demo of a reading tracking app: sign in with Bluesky, search books, and write reviews stored as custom lexicon records. Eventually you will be able to browse other user's reviews or view reviews by book. Like Goodreads, but not evil. I'm also using this project to experiment with new agentic coding processes, which you can read more about below.",
+			"In active development, not a complete project. An AT Protocol demo of a reading tracking app: sign in with Bluesky, search books, and write reviews stored as custom lexicon records. Eventually you will be able to browse other user's reviews or view reviews by book. Like Goodreads, but not evil. I'm also using this project to experiment with new agentic coding processes, learn more on the about page.",
+		link: { text: 'about page', href: '/about' },
 		tags: ['Next.js', 'TypeScript', 'AT Protocol', 'SQLite'],
 		repo: 'https://github.com/jirbjirbjirb/bookshelf',
 		live: 'https://bookshelf.kirbyjayes.com'
