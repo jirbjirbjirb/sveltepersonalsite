@@ -11,9 +11,10 @@ export const projects: Project[] = [
 	{
 		title: 'Bookshelf',
 		description:
-			"In active development, not a complete project. An AT Protocol demo of a reading tracking app: sign in with Bluesky, search books, and write reviews stored as custom lexicon records. Eventually you will be able to browse other user's reviews or view reviews by book.",
+			"In active development, not a complete project. An AT Protocol demo of a reading tracking app: sign in with Bluesky, search books, and write reviews stored as custom lexicon records. Eventually you will be able to browse other user's reviews or view reviews by book. Like Goodreads, but not evil. I'm also using this project to experiment with new agentic coding processes, which you can read more about below.",
 		tags: ['Next.js', 'TypeScript', 'AT Protocol', 'SQLite'],
-		repo: 'https://github.com/jirbjirbjirb/bookshelf'
+		repo: 'https://github.com/jirbjirbjirb/bookshelf',
+		live: 'https://bookshelf.kirbyjayes.com'
 	},
 	{
 		title: 'Personal site',
